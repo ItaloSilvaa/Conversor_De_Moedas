@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style.css"><!--Linka o codigo HTML com  o CSS-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+         background-image: url("Scuba1920.jpg");/*Selciona uma imagem para o fundo do site*/
+         
+            }       
+        </style>
+        <link rel="shortcut icon" href="Aha-Soft-Universal-Shop-Coin.   ico" type="image/x-icon"><!--Linka o favicon-->
+    <title>Primeira Aula</title>
+</head>
+<body>
+   
+    <h1><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo_Dev" alt="" ></h1>
+    <br>
+    <strong>Conversor de Moedas</strong>
+    <br>
+    <input type="number" id="Valor" min="0" placeholder="Inira um valor"><!--Caixa onde sera colocado o Valor a ser convertido-->
+    
+   <pre id="result" ></pre><!--Onde sera exibido o resultado/"pre" preserva a forma com que o texto sera exibido(não altera)-->
+    <button type="submit" name="Converter" onclick="calc()">Converter!</button><!--Botão que realizara a função de conversão-->
+    
+    
+   <script>
+       function calc(){//função onde será atribuido elementos que realizaram uma função especifica 
+       
+       var val = document.getElementById("Valor").value//variavel "val" recebe o "value"(numero escrito na caixa de texto) do id "Valor" e armazena
+       var calculo = val/5.51//calculo recebe o valor de "val" e divide por 5.51
+       document.getElementById("result").innerHTML ="$ " + calculo.toFixed(2) + " Dolares"//O id "result" Recebe o valor de calculo e passar para HTML usando o DOM
+       }
+    </script>
+
+    
+</body>
+</html>
+<!--CREDITOS:https://hdqwalls.com/scuba-diving-minimalism-wallpaper-->

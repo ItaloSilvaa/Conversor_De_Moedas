@@ -1,0 +1,43 @@
+html{
+    height: 100%;/*Define a altura dos elementos HTML*/
+
+}
+body{
+    display: flex;/*Tela flexivel(se ajusta aos tamanhos de diferentes monitores evitando o transbordamento)*/
+    height: 100%;/*Altura dos elementos do "body" ocupam 100% do espaço*/
+    margin: 0%;/*Retira a margem evitando areas sem conteudo*/
+    align-items: center;/*Alinha os itens do "body" no centro*/
+    justify-content: center;/*Alinha os itens Verticalmente*/
+    flex-direction: column;/*A propriedade especifica a direção dos itens*/
+
+}
+strong{
+    font-family: sans-serif;/*Seleciona um font*/
+    border-radius: 10px;/*Define o raio das bordas em pixel*/
+    color: rgb(228, 228, 228);
+    
+}
+input{
+    outline: none;/*Retira linha de fora*/
+    border: none;/*Retira a borda*/
+    border-bottom: solid;/*Borda solida abaixo*/
+    border-color: rgb(252, 255, 82);
+    
+}
+button{
+    outline: none;/*Retira linha de fora*/
+    border: none;/*Retira a borda*/
+    border-bottom: solid;/*Borda solida abaixo*/
+    border-color: rgb(252, 255, 82);
+
+}
+pre{
+    color: yellow;
+
+}
+
+
+
+
+
+
